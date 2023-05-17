@@ -36,7 +36,7 @@ main {
   width: 80%;
   font-size: 48pt;
   font-weight: 600;
-  color: SaddleBrown;  
+  color: blue;  
 }
 
 .subtitulo-pagina {
@@ -45,7 +45,16 @@ main {
   width: 80%;
   font-size: 20pt;
   line-height: 35pt;  
+  color:aqua;
 }
+
+.sapatosdoronaldo{
+color:#ffffff;
+background-color:#ff0000;
+
+
+}
+
 .titulo-artigo {
   font-size: 18pt;
   margin: 10px 10px 10px 10px;
