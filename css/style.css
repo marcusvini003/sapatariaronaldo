@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+}
+
+.menu-navegacao {
+  width: 80%;
+  margin: auto;
+}
+
+
+.menu-navegacao ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.menu-navegacao li {
+  padding: 20px;
+}
+
+.menu-navegacao a {
+  text-decoration: none;
+}
+
+.titulo-pagina {
+  font-family: 'Raleway', sans-serif;
+  margin: 40px auto 10px;
+  padding-left: 10px;
+  width: 80%;
+  font-size: 48pt;
+  font-weight: 600;
+  color: SaddleBrown;  
+}
+
+.subtitulo-pagina {
+  margin: 10px auto 10px;
+  padding-left: 10px;
+  width: 80%;
+  font-size: 20pt;
+  line-height: 35pt;  
+}
+.titulo-artigo {
+  font-size: 18pt;
+  margin: 10px 10px 10px 10px;
+}
+
+.paragrafo-artigo {
+  font-size: 12pt;
+  margin: 10px 10px 10px 10px;
+  line-height: 1.4;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 5px 20%;
+}
+
+.vitrine-produtos {
+  margin: 10px;   
+}
+
+.categoria-produtos {
+  font-size: 140%;
+  font-family: 'Raleway', sans-serif;
+  background-color: SaddleBrown;
+  color: white;
+  padding-left: 20px;
+  line-height: 3;
+  margin: 10px 10px 10px 10px;
+}
+.vitrine-produtos ul{
+  
+  padding-left: 0;
+  margin: 60px 0px;
+}
+
+.container-produtos {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 20px;  
+  padding-top: -10px; 
+}
+
+.imagem-produto {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  object-position: 0 0;
+  
+}
+.footer {
+  background-color: SaddleBrown;
+  color: #ffffff;
+  padding: 20px;
+}
