@@ -36,7 +36,8 @@ main {
   width: 80%;
   font-size: 48pt;
   font-weight: 600;
-  color: blue;  
+  color:black;
+    
 }
 
 .subtitulo-pagina {
@@ -46,13 +47,16 @@ main {
   font-size: 20pt;
   line-height: 35pt;  
   color:aqua;
+  
 }
 
 .sapatosdoronaldo{
-color:#ffffff;
-background-color:#ff0000;
-
-
+  margin:10px auto 10px;
+  padding-left:10px ;
+  width: 80%;
+  font-size:20pt ;
+  line-height: 35pt;
+  color:black;
 }
 
 .titulo-artigo {
@@ -63,7 +67,7 @@ background-color:#ff0000;
 .paragrafo-artigo {
   font-size: 12pt;
   margin: 10px 10px 10px 10px;
-  line-height: 1.4;
+  line-height: 1.4; 
 }
 
 .banner {
@@ -80,7 +84,7 @@ background-color:#ff0000;
 .categoria-produtos {
   font-size: 140%;
   font-family: 'Raleway', sans-serif;
-  background-color: SaddleBrown;
+  background-color:blue;
   color: white;
   padding-left: 20px;
   line-height: 3;
@@ -108,7 +112,21 @@ background-color:#ff0000;
   
 }
 .footer {
-  background-color: SaddleBrown;
+  background-color: blue;
   color: #ffffff;
   padding: 20px;
+}
+
+.paragrafo-artigo2{
+  font-size: 12pt;
+  margin: 10px 10px 10px 10px;
+  line-height: 1.4; 
+  color:blue;
+}
+.titulo-text{
+  font-size: 28pt;
+  margin: 10px 10px 10px 10px;
+  color:yellow;
+  background-color:brown;
+
 }
